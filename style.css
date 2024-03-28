@@ -66,7 +66,7 @@ section{
     align-items: center;
     margin-top: 40px;
     margin: ;
-    padding: 0 35px 0 35px;
+    padding: 45px 100px 0 100px;
 }
 
 .title{
@@ -84,11 +84,18 @@ p{
     width: 70%;
 }
 
+#imgggg:hover{
+    filter: drop-shadow( 30px 10px 11px black);
+    transition: all .5s linear;
+}
+
 
 @media (max-width: 650px) {
     section{
         flex-direction: column;
         justify-content: center;
+        padding: 0px 40px 0px 40px;
+        
     }
     h1, p{
         width: 90%;
